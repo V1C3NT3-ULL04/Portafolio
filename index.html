@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vicente Ulloa - Portafolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">V.U</div>
+    <div class="name">Vicente Ulloa Diaz</div>
+    <div class="title">Estudiante de Programación | Tecnología</div>
+
+    <nav class="nav-menu">
+      <a href="#home" class="nav-item active">HOME</a>
+      <a href="#about" class="nav-item">ABOUT</a>
+      <a href="#services" class="nav-item">SERVICES</a>
+      <a href="#skills" class="nav-item">SKILLS</a>
+      <a href="#education" class="nav-item">EDUCATION</a>
+      <a href="#certifications" class="nav-item">CERTIFICATIONS</a>
+      <a href="#experience" class="nav-item">EXPERIENCE</a>
+      <a href="#references" class="nav-item">REFERENCES</a>
+      <a href="#portfolio" class="nav-item">PORTFOLIO</a>
+      <a href="#contact" class="nav-item">CONTACT</a>
+    </nav>
+
+    <div class="social-icons">
+      <a href="mailto:Ulloadiazvicente0@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+56930399703" class="social-icon"><i class="fas fa-phone"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <section id="home" class="section">
+      <div class="content" style="text-align: center;">
+        <h1 class="section-title">Buenas!</h1>
+        <h2 class="section-subtitle">Soy Vicente Ulloa Diaz — Estudiante apasionado por la tecnología y la programación.</h2>
+        <button class="btn">DESCARGAR RESUME</button>
+        <br>
+        <button class="btn" onclick="document.querySelector('#services').scrollIntoView({behavior: 'smooth'});">
+          ¿Qué servicios ofrezco como programador?
+        </button>
+        <br>
+        <button class="btn" onclick="document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});">
+          ¡Contáctame!
+        </button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="content">
+        <h1 class="section-title">Quien Soy?</h1>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 2rem;">
+          Hola, soy Vicente Ulloa Diaz, un estudiante de programación con pasión por el desarrollo web, bases de datos y mantenimiento computacional. 
+          He aprendido a través de mis estudios en liceos técnicos y estoy comprometido a seguir creciendo en esta carrera.
+        </p>
+
+        <div class="about-container">
+          <div class="expertise-card">
+            <div class="hexagon"><i class="fas fa-lightbulb"></i></div>
+            <h3 class="expertise-title">Quality Assurance</h3>
+            <p class="expertise-desc">Realizo pruebas funcionales, unitarias e integrales en proyectos pequeños y personales para garantizar calidad y estabilidad del software.</p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="hexagon" style="background: linear-gradient(45deg, #e91e63, #f44336);"><i class="fas fa-database"></i></div>
+            <h3 class="expertise-title">Software</h3>
+            <p class="expertise-desc">Desarrollo aplicaciones web con HTML, CSS, JavaScript y Python. Trabajo en backend y frontend con enfoque en funcionalidad y usabilidad.</p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="hexagon" style="background: linear-gradient(45deg, #ffc107, #ff9800);"><i class="fas fa-mobile-alt"></i></div>
+            <h3 class="expertise-title">Application</h3>
+            <p class="expertise-desc">He desarrollado 6 aplicaciones web simples durante mis estudios, enfocadas en resolver problemas cotidianos y practicar lógica de programación.</p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="hexagon" style="background: linear-gradient(45deg, #9c27b0, #673ab7);"><i class="fas fa-palette"></i></div>
+            <h3 class="expertise-title">Graphic Design</h3>
+            <p class="expertise-desc">Creo gráficos básicos utilizando herramientas como Canva y Figma. Me gusta diseñar interfaces intuitivas y atractivas visualmente.</p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="hexagon" style="background: linear-gradient(45deg, #009688, #00bcd4);"><i class="fas fa-tasks"></i></div>
+            <h3 class="expertise-title">Project Management</h3>
+            <p class="expertise-desc">Organizo mis proyectos usando listas de tareas y plazos. He utilizado herramientas como Trello para gestionar mi progreso personal.</p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="hexagon" style="background: linear-gradient(45deg, #2196f3, #3f51b5);"><i class="fab fa-microsoft"></i></div>
+            <h3 class="expertise-title">SharePoint</h3>
+            <p class="expertise-desc">He trabajado con interfaces básicas en SharePoint para organizar documentos y compartir información en entornos educativos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="services-container">
+        <h1 class="services-title">¿Qué servicios ofrezco?</h1>
+
+        <div class="service-card">
+          <h3><i class="fas fa-database"></i> Diseño de base de datos</h3>
+          <p>Modelos lógicos de base de datos relacionales, usando MySQL o SQL Oracle, con normalizaciones y diagramas de ERD.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><i class="fas fa-graduation-cap"></i> Apoyo de forma académica</h3>
+          <p>Ayudaré en proyectos y/o tareas que requieran de desarrollo web, base de datos o lógica de programación.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><i class="fas fa-globe"></i> Páginas Web</h3>
+          <p>Creo sitios web estáticos con HTML, CSS y JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="skills-layout">
+        <div class="skills-column">
+          <h1 class="section-title">Mis Conocimientos</h1>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>CSS</span><span>50%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>HTML</span><span>60%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 60%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>JavaScript</span><span>50%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>Python</span><span>60%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 60%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>C#</span><span>35%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 35%;"></div></div>
+          </div>
+
+          <div class="database-title">DataBase Skills</div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>MySQL</span><span>55%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 55%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>Oracle SQL</span><span>45%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 45%;"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name"><span>SQL Server</span><span>50%</span></div>
+            <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+          </div>
+
+          <div class="hardware-software">
+            <div class="hw-sw-item">
+              <div class="skill-name"><span>Hardware</span><span>60%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 60%;"></div></div>
+            </div>
+            <div class="hw-sw-item">
+              <div class="skill-name"><span>Software</span><span>45%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 45%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <h2 class="soft-skills-title">Habilidades Blandas</h2>
+          <ul class="soft-skills-list">
+            <li><i class="fas fa-eye"></i> Percepción para detectar problemas</li>
+            <li><i class="fas fa-brain"></i> Buena lógica</li>
+            <li><i class="fas fa-chart-line"></i> Pensamiento analítico</li>
+            <li><i class="fas fa-users"></i> Buen trabajo en equipo</li>
+            <li><i class="fas fa-comments"></i> Comunicación respetuosa y clara</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="education-container">
+        <h1 class="section-title">Educacion</h1>
+        <div class="edu-card">
+          <h3><i class="fas fa-school"></i> Liceo Patricio Aylwin Azocar</h3>
+          <p>Aprendí lo básico de programación, fue el comienzo de mi interés a esta carrera. Aprendí lo básico sobre SQL y desarrollo de Software. Participé en proyectos escolares de programación básica y manejo de bases de datos.</p>
+        </div>
+        <div class="edu-card">
+          <h3><i class="fas fa-graduation-cap"></i> Liceo Comercial Vate Vicente Huidobro</h3>
+          <p>Aprendí a manejarme de forma intermedia con MySQL, Python, HTML, CSS, JavaScript y aprendí lo básico sobre Hardware y mantenimiento computacional. Desarrollé proyectos prácticos como una calculadora web y un sistema de registro simple.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="certifications-container">
+        <h1 class="section-title">Certificaciones</h1>
+
+        <div class="cert-item">
+          <div class="cert-circle">1</div>
+          <div class="cert-year">Año 2025</div>
+          <div class="cert-desc">Desarrollo web básico, Liceo Vate Vicente Huidobro, certificado interno por dominio de CSS, HTML y JavaScript básico en el contexto académico.</div>
+        </div>
+
+        <div class="cert-item">
+          <div class="cert-circle">2</div>
+          <div class="cert-year">Año 2025</div>
+          <div class="cert-desc">Modelamiento de base de datos, Liceo Vate Vicente Huidobro, certificación por dominio de MySQL y SQL Oracle básico en el ámbito académico.</div>
+        </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="content">
+        <h1 class="section-title">Experiencia</h1>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 2rem;">
+        Durante mis estudios, he desarrollado varios proyectos prácticos que demuestran mis habilidades técnicas y creatividad.
+        </p>
+
+        <div class="experience-container">
+            <div class="exp-card">
+            <h3><i class="fas fa-shopping-cart"></i> Tienda Web de Coleccionables</h3>
+            <p>Simulación de una tienda web funcional para vender figuras y objetos coleccionables. Incluye catálogo dinámico, carrito de compras básico y formulario de contacto. Desarrollada con HTML, CSS y JavaScript.</p>
+            </div>
+
+            <div class="exp-card">
+            <h3><i class="fas fa-lightbulb"></i> Taller de Emprendimiento</h3>
+            <p>Página informativa e interactiva sobre problemas civiles actuales (contaminación, seguridad, etc.). Incluye encuestas, mapas interactivos y propuestas de solución. Usé Python (Flask) y MySQL para el backend.</p>
+            </div>
+
+            <div class="exp-card">
+            <h3><i class="fas fa-heartbeat"></i> Cabina Médica Virtual</h3>
+            <p>Prototipo de cabina médica que simula la detección de signos vitales básicos (frecuencia cardíaca, temperatura, oxígeno) en menos de 3 minutos. Interfaz en HTML/CSS con lógica en JavaScript y Python.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="references" class="section">
+        <div class="ref-container">
+        <h1 class="section-title">Referencias academicas</h1>
+        <div class="ref-item">
+            <div class="ref-name"><i class="fas fa-user-tie"></i> Dany Hernandes Gonzales</div>
+            <div class="ref-email"><i class="fas fa-envelope"></i> Danyhernandes@comeduc.cl</div>
+        </div>
+        <div class="ref-item">
+            <div class="ref-name"><i class="fas fa-user-tie"></i> Mauricio Medel</div>
+            <div class="ref-email"><i class="fas fa-envelope"></i> Mauriciomedel@comeduc.cl</div>
+        </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="content">
+        <h1 class="section-title">Portfolio</h1>
+        <p style="text-align: center;">Próximamente... ¡Proyectos futuros en desarrollo!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="contact-container">
+        <h1 class="section-title">Contacto</h1>
+        <div class="contact-name">Vicente Ulloa Diaz</div>
+        <div class="contact-info">
+            <div><i class="fas fa-envelope"></i> Ulloadiazvicente0@gmail.com</div>
+            <div><i class="fas fa-phone"></i> +56 9 3039 9703</div>
+        </div>
+
+        <div class="contact-form">
+            <form id="contactForm">
+            <div class="form-group">
+                <label for="email">Tu correo electrónico</label>
+                <input type="email" id="email" class="form-control" placeholder="ejemplo@dominio.com" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Tu número de teléfono (opcional)</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+56 9 XXXX XXXX">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" class="form-control" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+        </div>
+    </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
